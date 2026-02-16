@@ -28,6 +28,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: white;
+  width: 1440px;
   /* width: 1440px;*/
 }
 
@@ -74,7 +75,7 @@ footer {
   background-color: #2e2f42;
   display: flex;
   justify-content: center;
-  width: 1440px;
+
   height: 312px;
   padding: 100px 1020px 100px 156px;
 }
@@ -163,7 +164,7 @@ header {
 
 .hero {
   background-color: #2e2f42;
-  width: 1440px;
+  /*width: 1440px;*/
   height: 600px;
   display: flex;
   justify-content: center;
@@ -300,7 +301,7 @@ header {
 
 /* #region portfolio */
 .portfolio {
-  width: 1440px;
+  /* width: 1440px;*/
   height: 1240px;
   display: flex;
   justify-content: center;

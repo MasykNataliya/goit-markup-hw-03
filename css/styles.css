@@ -10,6 +10,18 @@
   margin: 0 auto;
   outline: 2px solid red;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* #endregion Global Styles */
 /*#region Base Styles*/
 body {
@@ -104,8 +116,7 @@ header {
 }
 
 .main-nav {
-  margin-right: 332px;
-  display: inline-block;
+  display: flex;
 }
 .main-nav-list {
   width: 261px;
@@ -115,6 +126,7 @@ header {
   justify-content: flex-start;
   flex-direction: row;
   row-gap: 40px;
+  margin-right: 332px;
 }
 
 .main-nav-link {
@@ -143,7 +155,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  display: inline-block;
+  display: flex;
 }
 /* #endregion nav */
 

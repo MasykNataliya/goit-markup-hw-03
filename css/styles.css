@@ -90,10 +90,11 @@ ol {
 
 /* #region nav */
 header {
-  width: 1140px;
+  /* width: 1140px;*/
   /*height: 72px;*/
   margin: 0 auto;
-  padding: 24px 156px;
+  /*padding: 24px 156px;*/0
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -126,7 +127,7 @@ header {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: row;
-  row-gap: 40px;
+  gap: 40px;
   margin-right: 332px;
 }
 
@@ -146,7 +147,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 32px;
+  gap: 40px;
   margin-left: 0 auto;
 }
 .contact-info-item {
@@ -157,6 +158,7 @@ header {
   letter-spacing: 0.02em;
   color: #434455;
   display: flex;
+  font-style: normal;
 }
 /* #endregion nav */
 
@@ -203,6 +205,7 @@ header {
   justify-content: flex-start;
   flex-direction: row;
   gap: 10px;
+  border: none;
 
   align-items: center; /* центрує текст вертикально, не було в фігмі */
   justify-content: center;
@@ -253,7 +256,7 @@ header {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 32px;
+  gap: 24px;
   margin-bottom: 126px;
   padding: 287px 15px 32px 15px;
 }
@@ -321,8 +324,8 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  row-gap: 24px;
-  column-gap: 48px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .portfolio-item {
@@ -331,10 +334,7 @@ header {
   height: 420px;
 }
 
-.portfolio-thumb {
-  width: 252px;
-  height: 255px;
-}
+
 .portfolio-item-frame {
   display: flex;
   align-items: flex-start;
@@ -388,6 +388,9 @@ header {
 .footer-decor {
   width: 264px;
   display: flex;
+  flex-direction: column;  
+  gap: 16px;    
+
 }
 
 /* #endregion footer */

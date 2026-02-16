@@ -8,7 +8,7 @@
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red;*/
 }
 .visually-hidden {
   position: absolute;
@@ -28,8 +28,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: white;
-  max-width: 1440px; /* через контейнер */
-  margin: 0 auto;
+  margin: 0;
 }
 
 h2 {
@@ -99,14 +98,11 @@ img {
 
 /* #region nav */
 header {
-  /* width: 1140px;*/
-  /*height: 72px;*/
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 120px 0;
-
+  padding: 24px 156px; /* висота формується падінгами у посиланнях */
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -298,7 +294,6 @@ header {
 
 .team .section-title {
   margin-bottom: 72px;
-  margin-top: 120px;
   width: 264px;
   align-items: center;
 }
@@ -336,7 +331,7 @@ header {
 }
 
 .portfolio-item {
-  width: calc((100% - (24px * 3)) / 4);
+  width: calc((100% - (24px * 2)) / 3);
   /*width: 360px;*/
   height: 420px;
 }

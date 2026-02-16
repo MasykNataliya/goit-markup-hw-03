@@ -98,12 +98,17 @@ img {
 
 /* #region nav */
 header {
-  display: flex;
+  /* display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 24px 156px; /* висота формується падінгами у посиланнях */
+ padding: 24px 156px;  висота формується падінгами у посиланнях */
   border-bottom: 1px solid #e7e9fc;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -147,6 +152,8 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: inline-block;
+  padding: 24px 0; /* висота формується падінгами */
 }
 
 .contact-info {
@@ -286,6 +293,7 @@ header {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
+  padding: 32px 16px;
 }
 
 .team .contact-info {

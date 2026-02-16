@@ -237,6 +237,7 @@ header {
   flex-direction: row;
   gap: 32px;
   margin-bottom: 126px;
+  padding: 287px 15px 32px 15px;
 }
 
 .team-member {

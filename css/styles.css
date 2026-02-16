@@ -336,8 +336,8 @@ header {
 }
 
 .portfolio-item {
-  /* width: calc((100%-24px * 3) / 4);*/
-  width: 360px;
+  width: calc((100% - (24px * 3)) / 4);
+  /*width: 360px;*/
   height: 420px;
 }
 

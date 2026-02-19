@@ -86,18 +86,35 @@ ul,
 ol {
   list-style: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
+.section-title {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
 /*#endregion Base Styles*/
 
 /* #region nav */
-header {
+.site-header {
   /* display: flex;
   align-items: center;
   justify-content: space-between;
@@ -105,10 +122,10 @@ header {
  padding: 24px 156px;  висота формується падінгами у посиланнях */
   border-bottom: 1px solid #e7e9fc;
 }
-.header .container {
+.site-header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .logo {
@@ -116,30 +133,33 @@ header {
   font-weight: 700;
   font-size: 18px;
   /* line-height: 21px; */
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  /* justify-content: flex-start;*/
   flex-direction: row;
   gap: 0px;
-  width: 115px;
-  height: 24px;
+  /*width: 115px;
+  height: 24px;*/
   margin-right: 76px;
   display: inline-block;
+  padding: 24px 0;
 }
 
 .main-nav {
   display: flex;
+  align-items: center;
 }
 .main-nav-list {
-  width: 261px;
-  height: 24px;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  /*width: 261px;
+  height: 24px;*/
+  display: flex;
+  justify-content: center;
   flex-direction: row;
   gap: 40px;
   margin-right: 332px;
@@ -152,11 +172,15 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  display: inline-block;
+  display: block;
   padding: 24px 0; /* висота формується падінгами */
 }
 
 .contact-info {
+  font-style: normal;
+  margin-left: auto;
+}
+.contact-info-list {
   /* width: 344px;
   height: 24px;*/
   display: flex;
@@ -185,6 +209,7 @@ header {
   /*width: 1440px;*/
   /*height: 600px;*/
   display: flex;
+  align-items: center;
   justify-content: center;
   padding: 188px 0;
 }
@@ -250,6 +275,10 @@ header {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
+}
+
+.feature-title {
+  margin-bottom: 8px;
 }
 
 /* #endregion features */
@@ -318,18 +347,17 @@ header {
   /* width: 1440px;*/
   padding: 120px 0;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .portfolio h2 {
   margin-bottom: 72px;
-  width: 218px;
-  align-items: center;
 }
 
 .portfolio-list {
-  width: 1116px;
-  height: 374px;
+  /*width: 1116px;
+  height: 374px;*/
   display: flex;
   flex-wrap: wrap;
   align-items: center;

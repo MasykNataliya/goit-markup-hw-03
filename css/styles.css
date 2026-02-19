@@ -78,7 +78,9 @@ footer {
   color: #f4f4fd;
   background-color: #2e2f42;
   display: flex;
-  justify-content: center;
+
+  justify-content: flex-start;
+  align-items: center;
   padding: 100px 0;
 }
 
@@ -398,6 +400,7 @@ img {
 
 /* #endregion portfolio */
 /* #region footer */
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -426,6 +429,7 @@ img {
   width: 264px;
   display: flex;
   flex-direction: column;
+  margin-right: 0 auto;
   gap: 16px;
 }
 

@@ -285,8 +285,9 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-    padding: 120px 0;
-}
+
+  }
+
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;

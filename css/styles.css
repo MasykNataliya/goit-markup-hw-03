@@ -98,6 +98,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  
 }
 
 .section {
@@ -333,7 +334,7 @@ img {
 .team .section-title {
   width: 264px;
   align-items: center;
-  display: block;
+  display: inline-block;
   white-space: nowrap;
   text-align: center;
   margin: 0 auto;
@@ -348,7 +349,7 @@ img {
 
 /* #region portfolio */
 
-.team .container {
+.portfolio .container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -357,7 +358,7 @@ img {
 
 .portfolio h2 {
   width: 218px;
-  display: block;
+  display: inline-block;
   white-space: nowrap;
   /*display: flex;*/
   align-items: center;

@@ -198,6 +198,10 @@ img {
   display: inline-block;
   font-style: normal;
 }
+.contact-info-link {
+  color: #434455;
+}
+
 /* #endregion nav */
 
 /* #region hero */
@@ -459,8 +463,8 @@ img {
 
 /* #endregion footer */
 
-.contact-info-item:hover,
-.contact-info-item:focus,
+.contact-info-link:hover,
+.contact-info-link :focus,
 .main-nav-link:hover,
 .main-nav-link:focus {
   color: #404bbf;
